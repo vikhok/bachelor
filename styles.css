@@ -44,6 +44,7 @@ li, a, button
         font-size: 20px;
         color: #ffffff;
         text-decoration: none;
+        list-style: none;
     }
 
 .nav_links li
@@ -132,25 +133,4 @@ li, a, button
         width: 200px;
         border-radius: 50%;
         box-shadow: rgb(0, 0, 0) 10px 10px 30px;
-    }
-
-.linkedin
-    {
-        display: flex;
-        height: auto;
-        width: 70px;
-        border-radius: 50%;
-        background-color: aqua;
-        display: inline-block;
-        
-    }
-
-.linkedin:hover
-    {
-        display: flex;
-        
-        height: auto;
-        
-        color: #fff;
-        background-color: aqua;
     }
