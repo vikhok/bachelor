@@ -8,7 +8,7 @@ body , html
         height: 100%;
         width: auto;
         overflow: hidden;
-        background-color: blueviolet;
+        background-color: rgb(255, 255, 255);
     }
 
 *
@@ -44,6 +44,7 @@ li, a, button
         font-size: 20px;
         color: #ffffff;
         text-decoration: none;
+        list-style: none;
     }
 
 .nav_links li
@@ -59,19 +60,77 @@ li, a, button
 
 .nav_links li a:hover
     {
-        color: rgb(100, 200, 255);
+        color: rgb(255, 0, 0);
     }
 
 
 /* Content */
-.content
+#content
     {
         text-align: center;
         position: relative;
         padding: 20px;
         font-weight: 500;
         font-size: 22px;
-        color: #ffffff;
-        text-decoration: none;
-        text-shadow: black 1px 0px 10px;
+        color: black;
+    }
+
+#about_us
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+        background-color: rgb(133, 133, 133);
+        
+    }
+
+.about_us_section_title
+    {
+        text-align: center;
+        font-size: 1.5rem;
+        color: black;
+        padding: 20px;
+    }
+
+.about_us_grid
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-auto-rows: minmax(150px, auto);
+        grid-gap: 50px;
+    }
+
+.about_us_content
+    {
+        justify-content: center;
+    }
+
+.about_us_name
+    {
+        display: flex;
+        justify-content: center;
+        font-size: 1.3rem;
+        font-weight: bolder;
+        color: black;
+        padding: 20px;
+    }
+
+.about_us_text
+    {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        text-align: center;
+        width: auto;
+    }
+
+.about_us_images
+    {
+        cursor: pointer;
+        height: auto;
+        width: 200px;
+        border-radius: 50%;
+        box-shadow: rgb(0, 0, 0) 10px 10px 30px;
     }

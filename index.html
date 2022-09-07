@@ -10,6 +10,7 @@
 
 <body>
     <header>
+        <img class="logo" src="images/uia.png" alt="logo">
         <nav>
             <ul class="nav_links">
                 <li><a href="#">test</a></li>
@@ -19,28 +20,36 @@
         </nav>
     </header>
 
-    <section class="content">
+    <section id="content">
         <h1>Vi e gruppe 10!</h2>
-
+        <p>Vi ska gjøre nokka kult.</p>
+        <p>Om du e intressert, ta kontakt.</p>
     </section>
-    <section class="about_us">
-        <div name="viktor">
-            <h2>Viktor</h2>
-            <img src="images/viktor.png" alt="Viktor Hokland">
-        </div>
 
-        <div name="eivind">
-            <h2>Eivind</h2>
-        </div>
+    <section id="about_us">
+        <div class="about_us_container">
+            <div class="about_us_section_title">
+                <h2>Hvem er vi?</h2>
+            </div>
 
-        <div name="håkon">
-            <h2>Håkon</h2>
-        </div>
+            <div class="about_us_grid">
+                <div class="about_us_content">
+                    <img class="about_us_images" src="images/viktor.png" alt="Viktor Hokland"></img>
+                    <h3 class="about_us_name">Viktor Hokland</h3>
+                    <div class="contact">
+                        <ul>
+                            <li><a href="#"><button type="button">In</button></a></li>
+                        </ul>
+                    </div>
+                </div>
 
-        <div name="aleksander">
-            <h2>Aleksander</h2>
-        </div>
+                <div class="about_us_content">
+                    <img class="about_us_images" src="images/viktor.png" alt="Eivind Hauge Halsnes"></img>
+                    <h3 class="about_us_name">Eivind Halsnes</h3>
+                </div>
 
+            </div>
+        </div>
     </section>
 </body>
 </html>
