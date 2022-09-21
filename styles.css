@@ -73,15 +73,13 @@ li, a, button
     {
         text-align: center;
         position: relative;
-        padding: 20px;
         font-weight: 500;
         font-size: 22px;
         color: black;
-        
-        left: auto;
-        right: auto;
-        width: 1000px;
-        text-align: center;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
 #about_us_section
