@@ -7,9 +7,13 @@ body , html
     {
         height: 100%;
         width: auto;
-        overflow: hidden;
-        background-color: rgb(255, 255, 255);
+        background-color: #e3e3e3;
     }
+
+body
+{
+    overflow: scroll;
+}
 
 *
     {
@@ -27,7 +31,7 @@ header
         justify-content: flex-end;
         align-items: center;
         padding: 30px 10%;
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: #131e28;
     }
 
 .logo
@@ -73,17 +77,20 @@ li, a, button
         font-weight: 500;
         font-size: 22px;
         color: black;
+        
+        left: auto;
+        right: auto;
+        width: 1000px;
+        text-align: center;
     }
 
-#about_us
+#about_us_section
     {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
         padding: 10px;
-        background-color: rgb(133, 133, 133);
-        
     }
 
 .about_us_section_title
@@ -97,40 +104,16 @@ li, a, button
 .about_us_grid
     {
         display: grid;
-        grid-template-columns: repeat(2, 200px);
+        grid-template-columns: repeat(2, 300px);
         grid-auto-rows: minmax(150px, auto);
         grid-gap: 50px;
-    }
-
-.about_us_content
-    {
-        justify-content: center;
-    }
-
-.about_us_name
-    {
-        display: flex;
-        justify-content: center;
-        font-size: 1.3rem;
-        font-weight: bolder;
-        color: black;
-        padding: 20px;
-    }
-
-.about_us_text
-    {
-        display: flex;
-        justify-content: center;
-        width: 300px;
-        text-align: center;
-        width: auto;
     }
 
 .about_us_images
     {
         cursor: pointer;
         height: auto;
-        width: 200px;
+        width: 300px;
         border-radius: 50%;
         box-shadow: rgb(0, 0, 0) 10px 10px 30px;
     }
