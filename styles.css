@@ -7,9 +7,14 @@ body , html
     {
         height: 100%;
         width: auto;
-        overflow: hidden;
-        background-color: rgb(255, 255, 255);
+        background-color: #e3e3e3;
+        scroll-behavior: smooth;
     }
+
+body
+{
+    overflow: scroll;
+}
 
 *
     {
@@ -27,7 +32,7 @@ header
         justify-content: flex-end;
         align-items: center;
         padding: 30px 10%;
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: #131e28;
     }
 
 .logo
@@ -69,21 +74,22 @@ li, a, button
     {
         text-align: center;
         position: relative;
-        padding: 20px;
         font-weight: 500;
         font-size: 22px;
         color: black;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
-#about_us
+#about_us_section
     {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
         padding: 10px;
-        background-color: rgb(133, 133, 133);
-        
     }
 
 .about_us_section_title
@@ -97,40 +103,75 @@ li, a, button
 .about_us_grid
     {
         display: grid;
-        grid-template-columns: repeat(2, 200px);
+        grid-template-columns: repeat(2, 300px);
         grid-auto-rows: minmax(150px, auto);
         grid-gap: 50px;
     }
 
-.about_us_content
-    {
-        justify-content: center;
-    }
-
-.about_us_name
-    {
-        display: flex;
-        justify-content: center;
-        font-size: 1.3rem;
-        font-weight: bolder;
-        color: black;
-        padding: 20px;
-    }
-
-.about_us_text
-    {
-        display: flex;
-        justify-content: center;
-        width: 300px;
-        text-align: center;
-        width: auto;
-    }
-
 .about_us_images
     {
+        position: relative;
         cursor: pointer;
         height: auto;
-        width: 200px;
+        width: 300px;
         border-radius: 50%;
         box-shadow: rgb(0, 0, 0) 10px 10px 30px;
+    }
+    body {
+        background-color: #d8d8d8;
+    }
+    h1 {
+      text-align: center;
+    }
+    .contact-info ul {
+        position: relative;
+        transform: translate(-50%, -50%);
+        left: 75%;
+        top: 35px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    .contact-info ul li {
+        list-style: none;
+        margin: 0 10px;
+    }
+    .contact-info ul li .fa {
+        color: #000000;
+        font-size: 25px;
+        line-height: 50px;
+        transition: .5s;
+    }
+    .contact-info ul li .fa:hover {
+        color: #ffffff;
+    }
+    .contact-info ul li a {
+        position: relative;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+        transition: 0.5s;
+        transform: translate(0,0px);
+        box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    }
+    .contact-info ul li a:hover {
+        transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    }
+    .contact-info ul li:nth-child(1) a:hover {
+        background-color: #3b5999;
+    }
+    .contact-info ul li:nth-child(2) a:hover {
+        background-color: #30363d;
+    }
+    .contact-info ul li:nth-child(3) a:hover {
+        background-color: #e4405f;
+    }
+    .contact-info ul li:nth-child(4) a:hover {
+        background-color: #cd201f;
+    }
+    .contact-info ul li:nth-child(5) a:hover {
+        background-color: #0077B5;
     }
