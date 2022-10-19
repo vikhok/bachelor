@@ -184,13 +184,32 @@ li, a, button
         grid-gap: 50px;
         float: right;
         justify-content: center;
+
     }
 
-@media only screen and (max-width: 640px){
+ /* Mobile grid view */   
+@media only screen and (max-width: 1180px){
     .about_us_grid {
-        grid-template-columns: repeat(1, 50%);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 40px;
         justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 652px){
+    .about_us_grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr;
+        font-size: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    #content {
+        font-size: 20px;
+        padding: 20px;
     }
 }
 
@@ -199,14 +218,16 @@ li, a, button
         cursor: pointer;
         height: auto;
         width: 300px;
-        border-radius: 50%;
+        border-radius: 20%;
         box-shadow: rgb(0, 0, 0) 10px 10px 30px;
+        position:
     }
     h1 {
       text-align: center;
     }
     .contact-info ul {
         position: relative;
+        bottom: 0px;
         transform: translate(-50%, -50%);
         left: 80%;
         top: 35px;
