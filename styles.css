@@ -189,7 +189,7 @@ li, a, button
         height: auto;
         width: 80px;
         border-radius: 50%;
-        box-shadow: rgb(122, 117, 117) 10px 10px 30px;
+        box-shadow: rgb(157, 146, 146) 10px 10px 30px;
     }
     .about_us2_images
     {
@@ -198,7 +198,7 @@ li, a, button
         height: auto;
         width: 70px;
         border-radius: 50%;
-        box-shadow: rgb(122, 117, 117) 10px 10px 30px;
+        box-shadow: rgb(157, 146, 146) 10px 10px 30px;
     }
 
     .about_us3_images
@@ -206,9 +206,9 @@ li, a, button
         position: relative;
         cursor: pointer;
         height: auto;
-        width: 100px;
+        width: 90px;
         border-radius: 50%;
-        box-shadow: rgb(122, 117, 117) 10px 10px 30px;
+        box-shadow: rgb(157, 146, 146) 10px 10px 30px;
     }
     body {
         background-color: #ffffff;
