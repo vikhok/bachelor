@@ -7,7 +7,7 @@ body , html
     {
         height: 100%;
         width: auto;
-        background-color: #e3e3e3;
+        background-color: #ffffff;
         scroll-behavior: smooth;
     }
 
@@ -108,7 +108,38 @@ li, a, button
         grid-gap: 50px;
     }
 
-.about_us_images
+    .about_us1_images
+    {
+        position: relative;
+        cursor: pointer;
+        height: auto;
+        width: 80px;
+        border-radius: 50%;
+        box-shadow: rgb(122, 117, 117) 10px 10px 30px;
+    }
+    .about_us2_images
+    {
+        position: relative;
+        cursor: pointer;
+        height: auto;
+        width: 70px;
+        border-radius: 50%;
+        box-shadow: rgb(122, 117, 117) 10px 10px 30px;
+    }
+
+    .about_us3_images
+    {
+        position: relative;
+        cursor: pointer;
+        height: auto;
+        width: 100px;
+        border-radius: 50%;
+        box-shadow: rgb(122, 117, 117) 10px 10px 30px;
+    }
+    body {
+        background-color: #ffffff;
+    }
+    .about_us_images
     {
         position: relative;
         cursor: pointer;
@@ -118,7 +149,7 @@ li, a, button
         box-shadow: rgb(0, 0, 0) 10px 10px 30px;
     }
     body {
-        background-color: #d8d8d8;
+        background-color: #ffffff;
     }
     h1 {
       text-align: center;
